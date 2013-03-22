@@ -3,13 +3,13 @@
 %define		upstream_name	%{_class}_%{_subclass}
 
 Name:		php-pear-%{upstream_name}
-Version:	1.1.0
-Release:	6
+Version:	1.1.2
+Release:	1
 Summary:	An implementation of the IMAP protocol
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/Net_IMAP/
-Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tar.bz2
+Source0:	http://download.pear.php.net/package/Net_IMAP-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
@@ -41,9 +41,9 @@ install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
 
 %files
-%defattr(-,root,root)
 %doc %{upstream_name}-%{version}/docs/*
 %{_datadir}/pear/%{_class}
+%{_datadir}/pear/data/%{upstream_name}
 %{_datadir}/pear/packages/%{upstream_name}.xml
 
 
@@ -112,4 +112,5 @@ install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
 * Tue Jul 19 2005 Oden Eriksson <oeriksson@mandriva.com> 1.0.3-1mdk
 - initial Mandriva package (PLD import)
+
 
