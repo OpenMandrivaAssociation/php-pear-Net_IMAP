@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.1.2
-Release:	1
+Release:	2
 Summary:	An implementation of the IMAP protocol
 License:	PHP License
 Group:		Development/PHP
