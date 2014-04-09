@@ -3,9 +3,10 @@
 %define	modname	%{_class}_%{_subclass}
 
 Summary:	An implementation of the IMAP protocol
+
 Name:		php-pear-%{modname}
-Version:	1.1.2
-Release:	5
+Version:	1.1.3
+Release:	1
 License:	PHP License
 Group:		Development/PHP
 Url:		http://pear.php.net/package/Net_IMAP/
@@ -39,4 +40,5 @@ install -m 644 %{modname}.xml %{buildroot}%{_datadir}/pear/packages
 %{_datadir}/pear/%{_class}
 %{_datadir}/pear/data/%{modname}
 %{_datadir}/pear/packages/%{modname}.xml
+
 
