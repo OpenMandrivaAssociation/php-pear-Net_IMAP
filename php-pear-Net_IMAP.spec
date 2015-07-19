@@ -6,7 +6,7 @@ Summary:	An implementation of the IMAP protocol
 
 Name:		php-pear-%{modname}
 Version:	1.1.3
-Release:	4
+Release:	5
 License:	PHP License
 Group:		Development/PHP
 Url:		http://pear.php.net/package/Net_IMAP/
