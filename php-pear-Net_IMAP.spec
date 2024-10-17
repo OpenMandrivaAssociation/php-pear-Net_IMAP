@@ -9,7 +9,7 @@ Version:	1.1.3
 Release:	6
 License:	PHP License
 Group:		Development/PHP
-Url:		http://pear.php.net/package/Net_IMAP/
+Url:		https://pear.php.net/package/Net_IMAP/
 Source0:	http://download.pear.php.net/package/Net_IMAP-%{version}.tgz
 BuildArch:	noarch
 BuildRequires:	php-pear
